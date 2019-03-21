@@ -1,6 +1,4 @@
 @charset 'utf-8';
-
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 /*font-family: 'Noto Sans KR', sans-serif;*/
 
 .wrap {
@@ -45,9 +43,7 @@ header {
     transition: .5s;
 }
 header.fixed {
-    background: rgba(255, 255, 255, 0.8);
-    -webkit-box-shadow: 0px 1px 3px 0px rgba(200, 200, 200, 0.5);
-            box-shadow: 0px 1px 3px 0px rgba(200, 200, 200, 0.5);
+    background: white;
     position: fixed;
     top: 0;
     left: 0;
