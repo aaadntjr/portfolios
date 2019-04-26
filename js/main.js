@@ -23,7 +23,7 @@ $(document).ready(function(){
 
 
     // 지도 불러오기
-    var home = new naver.maps.LatLng(36.357144, 127.451906);
+    var home = new naver.maps.LatLng(/*36.357144, 127.451906*/);
     var mapOptions = {
         center: home,
         zoom: 10,
